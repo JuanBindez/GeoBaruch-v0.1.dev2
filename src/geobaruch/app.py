@@ -23,5 +23,6 @@ class GeoBaruch(toga.App):
         self.main_window.show()
 
 
+        
 def main():
     return GeoBaruch()
