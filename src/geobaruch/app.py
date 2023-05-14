@@ -14,13 +14,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-
-import toga
-from toga.style import Pack
-from toga.style.pack import COLUMN
-import geocoder
-
-
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN, RIGHT, LEFT, CENTER
