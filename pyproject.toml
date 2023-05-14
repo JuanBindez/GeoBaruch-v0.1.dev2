@@ -2,7 +2,7 @@
 [tool.briefcase]
 project_name = "GeoBaruch"
 bundle = "com.freesoftwarebrasil.geobaruch"
-version = "0.1.dev1"
+version = "0.1.dev2"
 url = "https://geobaruch.freesoftwarebrasil.com.br"
 license = "GNU General Public License v2 (GPLv2)"
 author = "Juan Bindez"
