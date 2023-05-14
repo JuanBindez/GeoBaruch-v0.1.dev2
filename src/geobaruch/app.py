@@ -21,6 +21,12 @@ from toga.style.pack import COLUMN
 import geocoder
 
 
+import toga
+from toga.style import Pack
+from toga.style.pack import COLUMN, RIGHT, LEFT, CENTER
+import geocoder
+
+
 class GeoBaruch(toga.App):
     def get_location(self, widget):
         """
@@ -49,11 +55,17 @@ class GeoBaruch(toga.App):
         # Create a label to display the location
         self.location_label = toga.Label('Location:', style=Pack(padding=10))
 
-        # Add the button and label to the main box
+        # Create a label for copyright
+        self.copyright_label = toga.Label('Copyright (C) 2023  Juan Bindez',
+                                          style=Pack(text_align=CENTER))
+
+        # Add the button, location label, and copyright label to the main box
         main_box.add(button)
         main_box.add(self.location_label)
+        main_box.add(self.location_label)
+        main_box.add(self.copyright_label)
 
-        self.main_window = toga.MainWindow(title=self.formal_name, size=(200, 100))
+        self.main_window = toga.MainWindow(title=self.formal_name, size=(200, 150))
         self.main_window.content = main_box
         self.main_window.show()
 
