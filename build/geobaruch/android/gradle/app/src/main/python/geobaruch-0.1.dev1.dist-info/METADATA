@@ -3,11 +3,9 @@ Briefcase-Version: 0.3.14
 Name: geobaruch
 Formal-Name: GeoBaruch
 App-ID: com.freesoftwarebrasil.geobaruch.geobaruch
-Version: v0.1-dev2
+Version: 0.1.dev1
 Home-page: https://geobaruch.freesoftwarebrasil.com.br
 Download-URL: https://geobaruch.freesoftwarebrasil.com.br
-Author: Juan Bindez    
-        <juanbindez780@gmail.com>
+Author: Juan Bindez
 Author-email: juanbindez780@gmail.com
 Summary: geolocation app
-        Copyright (c) 2023  Juan Bindez
