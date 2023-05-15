@@ -42,10 +42,8 @@ class GeoBaruch(toga.App):
         """
         main_box = toga.Box(style=Pack(direction=COLUMN))
 
-        # Create a button
         button = toga.Button('Get Location', on_press=self.get_location)
 
-        # Create a label to display the location
         self.location_label = toga.Label('Location:', style=Pack(padding=10))
 
         # Create a label for copyright
