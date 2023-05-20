@@ -40,6 +40,7 @@ class GeoBaruch(toga.App):
         We then create a main window (with a name matching the app), and
         show the main window.
         """
+        
         main_box = toga.Box(style=Pack(direction=COLUMN))
 
         button = toga.Button('Get Location', on_press=self.get_location)
